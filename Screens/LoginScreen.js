@@ -86,11 +86,6 @@ const LoginScreen = () => {
           >
             <Container>
               <View style={styles.form}>
-                <View style={styles.viewImg}>
-                  <Pressable style={styles.addAvatar}>
-                    <AntDesign name="pluscircleo" size={24} color="#FF6C00" />
-                  </Pressable>
-                </View>
                 <View style={styles.header}>
                   <Text style={styles.headerTitle}>Увійти</Text>
                 </View>
@@ -149,7 +144,7 @@ const LoginScreen = () => {
                   activeOpacity={0.6}
                   style={{
                     ...styles.buttonEnter,
-                    marginBottom: isShowKeyboard ? 28 : 78,
+                    marginBottom: isShowKeyboard ? 32 : 144,
                   }}
                 >
                   <Text
@@ -265,7 +260,6 @@ const styles = StyleSheet.create({
   buttonEnter: {
     marginTop: 16,
     alignItems: "center",
-    // marginBottom: 78,
   },
   textEnter: {
     color: "#1B4371",

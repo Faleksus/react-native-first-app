@@ -168,7 +168,7 @@ const RegistrationScreen = () => {
                   activeOpacity={0.6}
                   style={{
                     ...styles.buttonEnter,
-                    marginBottom: isShowKeyboard ? 28 : 78,
+                    marginBottom: isShowKeyboard ? 32 : 78,
                   }}
                 >
                   <Text
